@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Website</title>
+</head>
+<body>
+    <!-- Post jika ada Server-->
+    <form action="Action_page.php" method="get">
+
+        <div>
+            <label for="fname"> First name: </label>
+            <input type="text" name="fname" id="fname" placeholder="Keanu" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname"> Last Name: </label>
+            <input type="text" name="lname" id="lname" placeholder="Reeves" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Gender"> Gender: </label>
+
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="Gender">
+
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="Gender">
+
+            <label for="helicopter">Helicopter</label>
+            <input type="radio" name="Gender" id="Gender">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" name="Pass" id="pass" maxlength="12" placeholder="12 Characters" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="keanurev@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone #: </label>
+            <input type="tel" name="phone" id="phone" placeholder="000000000000">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">Birthdate: </label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="jurusan">Jurusan</label>
+            <select name="jurusan" id="jurusan">
+                <option value="accounting">Accounting</option>
+                <option value="accounting-technology">Accounting Technology</option>
+                <option value="international-accounting-finance">International Accounting & Finance</option>
+                <option value="business-management">Business Management</option>
+                <option value="international-business">International Business</option>
+                <option value="business-analytics">Business Analytics</option>
+                <option value="digital-business-management">Digital Business Management</option>
+                <option value="finance">Finance</option>
+                <option value="marketing">Marketing</option>
+                <option value="management">Management</option>
+
+                <option value="computer-science">Computer Science</option>
+                <option value="information-systems">Information Systems</option>
+                <option value="information-technology">Information Technology</option>
+                <option value="data-science">Data Science</option>
+                <option value="artificial-intelligence">Artificial Intelligence</option>
+                <option value="cyber-security">Cyber Security</option>
+                <option value="game-application-technology">Game Application and Technology</option>
+                <option value="software-engineering">Software Engineering</option>
+
+                <option value="industrial-engineering">Industrial Engineering</option>
+                <option value="computer-engineering">Computer Engineering</option>
+                <option value="civil-engineering">Civil Engineering</option>
+                <option value="food-technology">Food Technology</option>
+
+                <option value="architecture">Architecture</option>
+                <option value="interior-design">Interior Design</option>
+                <option value="visual-communication-design-animation">Visual Communication Design - Animation</option>
+                <option value="visual-communication-design-creative-advertising">Visual Communication Design - Creative Advertising</option>
+                <option value="fashion-design-management">Fashion Design & Management</option>
+
+                <option value="hospitality-tourism">Hospitality & Tourism</option>
+                <option value="film-television-media">Film / Media / Cinematic Arts</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Terms"> <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Do you with the terms and condition?</a></label>
+            <input type="checkbox" name="Terms" id="Terms">
+        </div>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+        
+        <div> 
+            <input type="button" value="submit">
+        </div>
+
+    </form>
+    
+</body>
+</html>
