@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Website</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <div class="form-container">
+    <!-- Post jika ada Server-->
+        <form class="Registration" action="Action_page.php" method="get">
+            <h1 class="h1">REGISTRATION FORM</h1> 
+
+            <div class="form-group">
+                <input class="form_input" type="text" name="fname" id="fname" placeholder=" " required>
+                <label for="fname">First name</label>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <input class="form_input" type="text" name="lname" id="lname" placeholder=" " required> 
+                <label for="lname">Last Name</label>
+            </div>
+
+            <br>
+
+            <fieldset class="gender-group">
+                <legend>Gender</legend>
+
+                <label>
+                    <input type="radio" name="Gender" value="male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="Gender" value="female"> Female
+                </label>
+                <label>
+                    <input type="radio" name="Gender" value="helicopter"> Helicopter
+                </label>
+            </fieldset>
+
+            <br>
+
+            <div class="form-group">
+                <input class="form_input" type="password" name="Pass" id="pass" maxlength="12" placeholder=" " required>
+                <label for="pass">Password</label>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <input class="form_input" type="email" name="email" id="email" placeholder=" " required>
+                <label for="email">Email</label>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                
+                <input class="form_input" type="tel" name="phone" id="phone" placeholder=" " >
+                <label for="phone">Phone</label>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                
+                <input class="form_input" type="date" id="bdate" name="bdate">
+                <label for="bdate">Birthdate</label>
+            </div>
+
+            <br>
+
+            <div class="form-group select_wrapper">
+                
+                <select name="jurusan" id="jurusan" class="form_input">
+                    <option value="accounting">Accounting</option>
+                    <option value="accounting-technology">Accounting Technology</option>
+                    <option value="international-accounting-finance">International Accounting & Finance</option>
+                    <option value="business-management">Business Management</option>
+                    <option value="international-business">International Business</option>
+                    <option value="business-analytics">Business Analytics</option>
+                    <option value="digital-business-management">Digital Business Management</option>
+                    <option value="finance">Finance</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="management">Management</option>
+
+                    <option value="computer-science">Computer Science</option>
+                    <option value="information-systems">Information Systems</option>
+                    <option value="information-technology">Information Technology</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="artificial-intelligence">Artificial Intelligence</option>
+                    <option value="cyber-security">Cyber Security</option>
+                    <option value="game-application-technology">Game Application and Technology</option>
+                    <option value="software-engineering">Software Engineering</option>
+
+                    <option value="industrial-engineering">Industrial Engineering</option>
+                    <option value="computer-engineering">Computer Engineering</option>
+                    <option value="civil-engineering">Civil Engineering</option>
+                    <option value="food-technology">Food Technology</option>
+
+                    <option value="architecture">Architecture</option>
+                    <option value="interior-design">Interior Design</option>
+                    <option value="visual-communication-design-animation">Visual Communication Design - Animation</option>
+                    <option value="visual-communication-design-creative-advertising">Visual Communication Design - Creative Advertising</option>
+                    <option value="fashion-design-management">Fashion Design & Management</option>
+
+                    <option value="hospitality-tourism">Hospitality & Tourism</option>
+                    <option value="film-television-media">Film / Media / Cinematic Arts</option>
+                    
+                </select>
+                <label for="jurusan">Jurusan</label>
+            </div>
+            
+
+            <br>
+
+            <div class="form-group terms">
+                <input type="checkbox" name="Terms" id="Terms">
+                <label for="Terms"> 
+                    Do you Agree with the<a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">  terms and condition?</a>
+                </label>
+                
+            </div>
+
+            <br>
+
+            <div class="btn">
+                <input type="reset" value="RESET" class="btn-btn">
+                <input type="submit" value="SUBMIT" class="btn-btn">
+        </div>
+    </form>
+    
+</body>
+</html>
